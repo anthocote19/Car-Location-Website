@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Motor's Contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/b713b17fa7.js" crossorigin="anonymous"></script>
+
+</head>
+    <nav>
+        <input type = "checkbox" id ="check">
+        <label for ="check"class= "checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href ="./index.html"><label class = "logo">AC Motor's</label></a>
+        <ul>
+            <li><a href = "./index.html">Accueil</a></li>
+            <li><a href = "./categories.html">Catégories</a></li>
+            <li><a href = "./Biensreco.html">Bien recommandés</a></li>
+            <li><a href = "./prix.html">Prix</a></li>
+            <li><a class = "active" href = "./contact.html">Support</a></li>
+        </ul>
+    </nav>
+    
+      <h4>Voici mon formulaire de contact si tu souhaites réserver une voiture ou me laisser un message !</h4>
+      <br>
+      <div class ="formulaire">
+      <div class="contact-form">
+        <h2>Formulaire de Contact :</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom et Prénom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="numéro">Numéro de téléphone :</label>
+            <input type="text" id="text" name="text" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Date">Date :</label>
+            <input type="text" id="text" name="text" required>
+
+            <label for="voiture">Sélectionnez une voiture :</label>
+            <select id="voiture" name="voiture" required>
+                <option value="">Sélectionner une voiture</option>
+                <option value="Lamborghini Urus">Lamborghini Urus</option>
+                <option value="Lamborghini Aventador">Lamborghini Aventador</option>
+                <option value="BMW M4">BMW M4</option>
+                <option value="BMW M6">BMW M6</option>
+                <option value="Ferrari 458 Italia">Ferrari 458 Italia</option>
+                <option value="Ferrari La Ferrari">Ferrari La Ferrari</option>
+                <option value="Mercedes GLC">Mercedes GLC</option>
+                <option value="Mercedes C63 AMG">Mercedes C63 AMG</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
