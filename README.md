@@ -1,1 +1,1 @@
-Projet personnel réaliser dans le but de me perfectionner en html et css
+Projet personnel réaliser dans le but de me perfectionner en HTML et CSS
