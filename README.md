@@ -1,1 +1,1 @@
-Projet personnel réaliser dans le but de me perfectionner en HTML et CSS
+Personal project carried out with the aim of improving my HTML and CSS skills.
